@@ -1,0 +1,22 @@
+[project]
+name = "proxmox-backup-verifier"
+version = "0.1.0"
+description = "Verify integrity of Proxmox VMA backup files synced from rclone"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.urls]
+Repository = "https://gitlab.com/cynium/proxmox-backup-verifier"
+
+[tool.uv]
+package = true
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]
+
+[project.scripts]
+proxmox-backup-verifier = "proxmox_backup_verifier.cli:main"

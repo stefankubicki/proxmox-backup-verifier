@@ -1,0 +1,5 @@
+{
+  "rclone_remote": "myremote:path/to/proxmox/dump",
+  "local_backup_dir": "/path/to/local/backups",
+  "checksum_file": "checksums.sha256"
+}
