@@ -113,4 +113,4 @@ Runs under Rosetta on Apple Silicon. Slower than native but fine for spot-checks
 ***
 © 2026 [Stefan Kubicki](https://kubicki.org) • a [CYNIUM](https://cynium.com) release • shipped from the [Atoll](https://kubicki.org/atoll)
 ***
-Canonical URL: https://forge.cynium.com/stefan/proxmox-backup-verifier
+Canonical URL: https://forge.cynium.com/cynium/proxmox-backup-verifier
